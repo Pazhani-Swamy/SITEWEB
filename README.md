@@ -3,7 +3,7 @@
 ## Contributeurs
 - Mamadi WAGUE - [@MamadiWague](https://github.com/MamadiWague)
 - Pazhani-swamy SAMINATHAN - [@Pazhani-Swamy](https://github.com/Pazhani-Swamy)
-- Thomas ESTAVES - [@eldriic](https://github.com/eldriic)
+- Thomas ESTEVES - [@eldriic](https://github.com/eldriic)
 
 ## Description du projet
 Ce projet est un site web simulé réalisé dans le cadre de notre formation à l'ESGI. Il s'agit d'un projet factice visant à démontrer notre compréhension et notre maîtrise de Git et GitHub.
