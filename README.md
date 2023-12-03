@@ -16,9 +16,6 @@ Pour installer ce projet sur votre machine locale, suivez ces étapes :
 3. Assurez-vous d'avoir Node.js et npm installés sur votre machine
 4. Installez les dépendances : `npm install`
 
-## Utilisation
-Pour utiliser cette application, ouvrez le fichier `index.html` dans votre navigateur.
-
 ## Contribution
 Nous accueillons les contributions de tous. Pour contribuer à ce projet, veuillez consulter notre fichier [CONTRIBUTING.md](CONTRIBUTING.md).
 
