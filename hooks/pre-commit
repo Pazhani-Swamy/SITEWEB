@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# Linting avec ESLint pour les fichiers JavaScript
+eslint .
+
+# Ajoute un commentaire de l'auteur du commit
+echo "# Auteur: $(git config user.name) <$(git config user.email)>" >> $1
+
+# Affiche les fichiers modifiés dans le commit
+git diff --cached --name-only
+
+# Demande une confirmation avant le commit
+read -p "Voulez-vous vraiment effectuer le commit ? [y/n] " response
+case "$response" in
+    [yY])
+        # Si la réponse est "y" ou "Y", le commit est effectué
+        exit 0
+        ;;
+    *)
+        # Si la réponse est autre chose que "y" ou "Y", le commit est annulé
+        echo "Commit annulé."
+        exit 1
+        ;;
+esac
